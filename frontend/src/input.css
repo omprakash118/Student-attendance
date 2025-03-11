@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    transition: width 2s ease-in-out;
+    
+    /* Smooth transition when hovered */
+}
+
+/* Scrollbar Thumb (Draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #415a77;
+    /* Dark Gray */
+    border-radius: 10px;
+    transition: background 2s ease-in-out;
+    /* Smooth color change */
+}
+
+/* Scrollbar Track (Background) */
+::-webkit-scrollbar-track {
+    background: #0d1b2a;
+    /* Sidebar Background */
+}
+
+/* Hover Effects */
+::-webkit-scrollbar-thumb:hover {
+    background: #718096;
+    /* Lighter Gray */
+    width: 10px;
+    /* Increases width on hover */
+}

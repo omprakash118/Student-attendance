@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="flex bg-blue-950 h-[60rem] w-80 flex-col text-[#F2E9E4]  rounded-xl ">
+        <div class="bg-[#242448] h-20  text-center rounded-xl" id="logo">
+            <h1>MyLogo</h1>
+        </div>
+        <div class="bg-[#22223B] h-[100%]" id="menu">
+            <ul class="font-mono text-xl pt-10 text-start text-[#b9b0ac]">
+
+
+                <li class="p-3 pl-6 cursor-pointer hover:bg-[#18182a] active:text-white  rounded-xl myself">
+                    Dashboard</li>
+                <li class="-tracking-tighter text-xl text-[#696564] active:text-white pl-6 pt-6 pb-3">MANAGEMENT
+                </li>
+
+
+
+
+                <li class="relative dropdown-container p-3 pl-9 cursor-pointer hover:bg-[#18182a] active:bg-[#18182a] transition-colors duration-200  rounded-xl" id="manage-teacher-button" >
+                    <a href="#" class="flex nav-link dropdown-toggle gap-4 justify-between text-center items-center w-[95%] transition-all duration-200"  >
+                        <span>Manage Teachers</span>
+                        <i class="fa-solid fa-angle-left opacity-30"></i>
+                    </a>
+                    <ul class= "pl-8 mt-2.5 group-hover:block hidden dropdown-menu" id="manage-teacher">
+                        <li class="p-2 px-4 bg-[#18182a] hover:text-white cursor-pointer flex gap-3 items-center transition-colors duration-200"><i class="fa-solid fa-user-plus  text-[15px]"></i><span>Add</span></li>
+                        <li class="p-2 px-4 bg-[#18182a] hover:text-white cursor-pointer flex gap-3 items-center transition-colors duration-200"><i class="fa-solid fa-user-minus  text-[15px]"></i><span>Remove</span></li>
+                        <li class="p-2 px-4 bg-[#18182a] hover:text-white cursor-pointer flex gap-3 items-center transition-colors duration-200"><i class="fa-solid fa-list text-[15px]"></i><span>List</span></li>
+
+                    </ul>
+                </li> 
+
+
+                <li class="p-3 pl-9 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl dropdown-container">Manage Students
+                </li>
+                <li class="p-3 pl-9 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl">Courses</li>
+                <li class="p-3 pl-9 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl">Class Schedule
+                </li>
+                <li class="p-3 pl-6 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl">Attendance
+                    Reports</li>
+                <li class="-tracking-tighter text-xl text-[#696564] active:text-white pl-6 pt-6 pb-3">MESSAGE</li>
+                <li class="p-3 pl-9 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl">Main</li>
+                <li class="p-3 pl-9 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl">Notices</li>
+                <li class="p-3 pl-5 cursor-pointer hover:bg-[#18182a] active:text-white rounded-xl">Settings</li>
+                <li class="p-3 pl-5 cursor-pointer hover:bg-[#18182a] hover:text-red-600 rounded-xl">Logout</li>
+                <li class="p-3 pl-5 cursor-pointer hover:bg-[#18182a] hover:text-red-600 rounded-xl">
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+</html>
