@@ -1,6 +1,12 @@
-const classAdd = document.getElementById("classAdd");
+const classAdd = document.getElementById("add_class");
 
 classAdd.innerHTML = `
+<div class="titel h-[7rem] bg-[#e0e1dd] shadow-lg ">
+        <div class="title-name flex justify-items-start items-center h-[100%] pl-[5rem] text-3xl font-bold  ">
+            <h1>Add New Class</h1>
+        </div>
+    </div>
+        <div class="flex justify-center items-center h-auto m-6">
         <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
         <!-- Header -->
         <h2 class="text-lg font-semibold text-gray-700 border-b pb-2">CLASS DETAILS</h2>
@@ -29,6 +35,7 @@ classAdd.innerHTML = `
                 </button>
             </div>
         </form>
+    </div>
     </div>
 `
 

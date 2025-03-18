@@ -1,8 +1,13 @@
-const studentAdding = document.getElementById("addStudent");
+const studentAdding = document.getElementById("add_Student");
 
 studentAdding.innerHTML = `
+<div class="titel h-[7rem] bg-[#e0e1dd] shadow-lg ">
+        <div class="title-name flex justify-items-start items-center h-[100%] pl-[5rem] text-3xl font-bold  ">
+            <h1>Add New Student</h1>
+        </div>
+    </div>
         <div class="m-6 flex h-auto items-center justify-center font-mono text-[#e0e1dd]">
-        <div class="h-auto min-h-0 w-[80%] shadow-2xl shadow-black">
+        <div class="h-auto min-h-0 w-[80%] ">
           <div class="max-w-8xl flex h-auto w-full flex-wrap justify-between gap-6 rounded-lg p-6 shadow-lg backdrop-blur-lg">
             <div class="rounded-2xl bg-[#0d1b2a] p-3">
               <div class="w-full max-w-3xl rounded-lg bg-[#1b263b] p-6 shadow-md text-xl">

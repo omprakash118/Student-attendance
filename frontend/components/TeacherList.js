@@ -1,9 +1,9 @@
-const studentList = document.getElementById("student_list");
+const TeacherList = document.getElementById("Teacher_list");
 
-studentList.innerHTML = `
+TeacherList.innerHTML = `
 <div class="titel h-[7rem] bg-[#e0e1dd] shadow-lg ">
         <div class="title-name flex justify-items-start items-center h-[100%] pl-[5rem] text-3xl font-bold  ">
-            <h1>Student List</h1>
+            <h1>Teacher List</h1>
         </div>
     </div>
     <div class="flex justify-center items-center h-auto m-6">

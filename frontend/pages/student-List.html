@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Details Form</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Student Attendance System</title>
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../styles/adminCss.css">
+    <script src="https://kit.fontawesome.com/a9bed58581.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
 </head>
-<body >
 
+<body>
+    <div class="page flex h-[100vh] min-h-screen">
+    <aside id="admin-sidebar" class="w-80 h-[100vh]  text-white p-4  bg-[#0d1b2a] overflow-y-auto transition-all duration-700">
+        <!-- Sidebar content will be inserted here -->
+          
+    </aside>
+   
+    <div class="flex flex-col flex-grow min-h-screen h-[100vh] justify-between section" id="header-main-footer">
+
+        <!-- Header Section-->
+        
+        <header id="admin-header" class="bg-[#1b263b] text-white p-4 shadow-md flex justify-between items-center ">
+            
+        </header>
+        
+        <!-- Main Section -->
+
+        <main id="student_list" class="bg-[#e0e1dd] h-[100%] flex-1 overflow-y-auto  ">
+            
+        </main>
+        
+        <!-- Footer -->
+        
+        <footer id="admin-footer" class="bg-[#1b263b] h-[4rem] text-[#8e9baa] text-[1rem]  w-[100%] bottom-0  p-4 shadow-md flex justify-around items-center">
+
+        </footer>
+    </div>
+</div>
 </body>
+<script src="../components/admin-navbar.js" defer></script>
+<script src="../components/admin-header.js" defer></script>
+<script src="../components/admin-footer.js" defer></script>
+<script src="../components/studentList.js" defer></script>
+<script src="../js/forToggle.js" defer></script>
+<script src="../js/idToggle.js" defer></script>
+<script src="../js/forCalender.js" defer></script>
+<script src="../js/classSection.js" defer></script>
 </html>

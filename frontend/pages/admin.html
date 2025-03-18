@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="../src/output.css">
     <link rel="stylesheet" href="../styles/adminCss.css">
     <script src="https://kit.fontawesome.com/a9bed58581.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +50,15 @@
             <!-- Main Section -->
 
             <main id="admin-main" class="bg-[#e0e1dd] h-[100%] flex-1 overflow-y-auto  ">
-                
+                <section id="take-attendance" class="content-section"></section>
+                <section id="student_list" class="content-section hidden"></section>
+                <section id="add_Student" class="content-section hidden"></section>
+                <section id="add_Teacher" class="content-section hidden"></section>
+                <section id="Teacher_list" class="content-section hidden"></section>
+                <section id="class_List" class="content-section hidden"></section>
+                <section id="add_class" class="content-section hidden"></section>
+                <section id="notice" class="content-section hidden"></section>
+                <section id="notice_form" class="content-section hidden"></section>
             </main>
             
             <!-- Footer -->
@@ -59,8 +71,19 @@
 </body>
 <script src="../components/admin-navbar.js" defer></script>
 <script src="../components/admin-header.js" defer></script>
-<script src="../components/admin-main.js" defer></script>
+<!-- <script src="../components/admin-main.js" defer></script> -->
+ <script src="../components/take-attendance.js" defer></script>
+ <script src="../components/studentList.js" defer></script>
+ <script src="../components/addStudent.js" defer></script>
+ <script src="../components/addTeacher.js" defer></script>
+ <script src="../components/classAdding.js" defer></script>
+ <script src="../components/classList.js" defer></script>
+ <script src="../components/studentList.js" defer></script>
+ <script src="../components/noticeForm.js" defer></script>
+ <script src="../components/noticeList.js" defer></script>
+ <script src="../components/TeacherList.js" defer></script>
 <script src="../components/admin-footer.js" defer></script>
+<script src="../js/dynamicPage.js" defer></script>
 <script src="../js/forToggle.js" defer></script>
 <script src="../js/idToggle.js" defer></script>
 <script src="../js/forCalender.js" defer></script>

@@ -1,6 +1,6 @@
-const mainContent = document.getElementById("admin-main");
+const takeattendance = document.getElementById('take-attendance');
 
-mainContent.innerHTML = `
+takeattendance.innerHTML = `
     <div class="titel h-[7rem] bg-[#e0e1dd] shadow-lg ">
         <div class="title-name flex justify-items-start items-center h-[100%] pl-[5rem] text-3xl font-bold  ">
             <h1>Attendance</h1>

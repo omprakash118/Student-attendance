@@ -28,7 +28,7 @@ myHeader.innerHTML = `
         <div id="dropdownMenu" class="absolute right-0 mt-4 w-50 h-auto text-[#e0e1dd] bg-[#1b263b] hidden shadow-lg rounded-2xl transition-all z-10 border-[#415a77] border">
             <div class="px-4 py-3 text-center border-b border-black m-3 bg-[#415a77] rounded-2xl shadow-xs shadow-black">
                 <i class="fa-regular fa-user text-[#e0e1dd] text-3xl"></i>
-                <p class="text-[#1b263b] font-semibold mt-1">josh prajapat</p>
+                <p class="font-semibold mt-1">josh prajapat</p>
             </div>
             <ul class="text-[#1b263b]  rounded-2xl border-[#1b263b]">
                 <ul class="flex-col rounded-2xl text-xl text-[#e0e1dd] ">

@@ -115,6 +115,21 @@
 ```
 <i class="fa-solid fa-file-circle-plus"></i>
 ```
+
+# Logo :- 
+```
+<i class="fa-brands fa-mendeley"></i>
+```
+
+# Attendance :- 
+```
+<i class="fa-regular fa-calendar-check"></i>
+
+```
+<a href="#" class="block nav-link ">
+                      <i class="fa-solid fa-user-plus  pr-3.5 text-xl"></i>
+                      <span>Add student</span>
+                    </a>
 # Css Link We use on our project :- 
 ```
 <link rel="stylesheet" href="../src/input.css">

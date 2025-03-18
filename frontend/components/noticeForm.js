@@ -1,8 +1,8 @@
-const noticeForm = document.getElementById('noticeForm');
+const noticeForm = document.getElementById('notice_form');
 
 noticeForm.innerHTML = `
     <div class="m-6 flex h-auto items-center justify-center font-mono text-[#e0e1dd]">
-    <div class="h-auto min-h-0 w-[50%] shadow-2xl shadow-black p-10 pb-15 rounded-2xl ">
+    <div class="h-auto min-h-0 w-[50%]  p-10 pb-15 rounded-2xl ">
       <div class="mx-auto mt-6 max-w-2xl rounded-lg border border-[#8e9baa] bg-[#1b263b] p-6 shadow-lg">
         <h2 class="mb-4 text-xl font-semibold text-[#e0e1dd]">Add Notice</h2>
         <form>
