@@ -126,10 +126,21 @@
 <i class="fa-regular fa-calendar-check"></i>
 
 ```
-<a href="#" class="block nav-link ">
-                      <i class="fa-solid fa-user-plus  pr-3.5 text-xl"></i>
-                      <span>Add student</span>
-                    </a>
+
+# send Message :- 
+```
+<i class="fa-solid fa-paper-plane"></i>
+```
+
+# pencil :- 
+```
+<i class="fa-solid fa-pencil"></i>
+```
+
+# Cross :-
+```
+<i class="fa-solid fa-xmark"></i>
+```
 # Css Link We use on our project :- 
 ```
 <link rel="stylesheet" href="../src/input.css">

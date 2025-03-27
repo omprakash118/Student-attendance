@@ -2,80 +2,83 @@ const teacherAdding = document.getElementById('add_Teacher');
 
 teacherAdding.innerHTML = `
 <div class="titel h-[7rem] bg-[#e0e1dd] shadow-lg ">
-        <div class="title-name flex justify-items-start items-center h-[100%] pl-[5rem] text-3xl font-bold  ">
+        <div class="title-name flex justify-items-start items-center h-[100%] pl-[5rem] max-sm:pl-[2rem] text-3xl font-bold  ">
             <h1>Add New Teacher</h1>
         </div>
     </div>
-    <div class="m-6 flex h-auto items-center justify-center font-mono text-[#e0e1dd]">
-    <div class="h-auto min-h-0 w-[80%] ">
-      <div
-        class="max-w-8xl flex h-auto w-full flex-wrap justify-between gap-6 rounded-lg p-6 shadow-lg backdrop-blur-lg">
-        <div class="rounded-2xl bg-[#0d1b2a] p-3">
-          <div class="w-full max-w-3xl rounded-lg bg-[#1b263b] p-6 shadow-md text-xl">
-            <h2 class="mb-4 text-lg font-semibold">TEACHER DETAILS</h2>
-            <form>
-              <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-                <div>
-                  <label class="block ">Name</label>
-                  <div class="flex gap-2">
-                    <input type="text" placeholder="First Name" class="w-1/2 p-2 border rounded-md">
-                    <input type="text" placeholder="Last Name" class="w-1/2 p-2 border rounded-md">
+    <div class="flex justify-center items-center min-h-[103vh] max-sm:ml-2 max-sm:mr-2  h-auto m-6 text-lg text-[#1b263b]">
+      <div class="h-auto  w-[60%] max-sm:w-full ">
+        <div
+          class="max-w-8xl flex h-auto w-full flex-wrap justify-between gap-6  p-6  backdrop-blur-lg">
+          <div class="w-full max-w-4xl rounded-lg bg-gray-200  p-6 shadow-md  ">
+            <h2 class="p-4  rounded-lg  text-lg max-sm:text-2xl font-semibold bg-[#415a77] text-[#e0e1dd]">TEACHER DETAILS</h2>
+            <div class="w-full max-w-3xl rounded-b-lg bg-gray-200 pt-6 pb-6 text-xl max-sm:text-2xl">
+              <form>
+                <div class="grid grid-cols-1 md:grid-cols-2  gap-4 ">
+                  <div>
+                      <label class="block text-gray-700 max-sm:mb-3.5">First Name</label>
+                      <input type="text" class="w-full p-2 border max-sm:mb-4 border-gray-300 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none" placeholder="First Name">
                   </div>
-                </div>
-                <div>
-                  <label class="block ">Subjects to Teach</label>
-                  <select class="w-full p-2 border rounded-md bg-[#1b263b]">
-                    <option>Please choose a department</option>
-                    <option>Mathematics</option>
-                    <option>Physics</option>
-                    <option>Chemistry</option>
-                    <option>Biology</option>
-                    <option>Computer Science</option>
-                    <option>English</option>
-                    <option>History</option>
-                    <option>Geography</option>
-                  </select>
-                  <input type="text" placeholder="Or enter a custom subject" class="w-full p-2 border rounded-md mt-2">
-                </div>
+                  <div>
+                    <label class="block text-gray-700 max-sm:mb-3.5">Last Name</label>
+                    <input type="text" class="w-full p-2 border border-gray-300 max-sm:mb-4 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none" placeholder="Last Name">
+                  </div>
+                  <div class="md:col-span-2">
+                      <label class="block text-gray-700 max-sm:mb-3.5">Subjects to Teach</label>
+                      <select class="w-full p-2 border border-gray-300 max-sm:mb-4 rounded-md bg-gray-200 focus:ring-2 focus:ring-[#415a77] focus:outline-none">
+                        <option value="" disabled selected>Select a department</option>
+                        <option>Mathematics</option>
+                        <option>Physics</option>
+                        <option>Chemistry</option>
+                        <option>Biology</option>
+                        <option>Computer Science</option>
+                        <option>English</option>
+                        <option>History</option>
+                        <option>Geography</option>
+                      </select>
+                      <input type="text" placeholder="Or enter a custom subject" class="w-full p-2 border max-sm:mb-4 border-gray-300 rounded-md mt-2 focus:ring-2 focus:ring-[#415a77] focus:outline-none">
+                  </div>
 
-                <div class="col-span-2">
-                  <label class="block">Email Address</label>
-                  <input type="email" class="w-full p-2 border rounded-md">
-                </div>
-                <div>
-                  <label class="block ">Mobile Phone</label>
-                  <input type="text" class="w-full p-2 border rounded-md">
-                </div>
-                <div>
-                  <label class="block ">Office Phone</label>
-                  <input type="text" class="w-full p-2 border rounded-md">
-                </div>
-                <div class="col-span-2">
-                  <label class="block ">Address</label>
-                  <input type="text" placeholder="Street Address" class="w-full p-2 border rounded-md mb-2">
-                  <input type="text" placeholder="Address Line 2" class="w-full p-2 border rounded-md mb-2">
-                  <div class="grid grid-cols-3 gap-2">
-                    <input type="text" placeholder="City" class="p-2 border rounded-md">
-                    <input type="text" placeholder="State" class="p-2 border rounded-md">
-                    <input type="text" placeholder="Zip Code" class="p-2 border rounded-md">
+                  <div class="md:col-span-2">
+                    <label class="block text-gray-700 max-sm:mb-3.5">Email Address</label>
+                    <input type="email" class="w-full p-2 border border-gray-300 max-sm:mb-3.5 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none" placeholder="example@email.com">
+                  </div>
+                  <div>
+                    <label class="block text-gray-700 max-sm:mb-3.5">Mobile Phone</label>
+                    <input type="text" class="w-full p-2 border border-gray-300 max-sm:mb-4 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none" placeholder="+123456789">
+                  </div>
+                  <div>
+                    <label class="block text-gray-700 max-sm:mb-3.5">Office Phone</label>
+                    <input type="text" class="w-full p-2 border border-gray-300 max-sm:mb-4 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none" placeholder="+987654321">
+                  </div>
+                  <div class="md:col-span-2">
+                    <label class="block text-gray-700 max-sm:mb-3.5">Address</label>
+                    <input type="text" placeholder="Street Address" class="w-full p-2 max-sm:mb-3 border border-gray-300 rounded-md mb-2 focus:ring-2 focus:ring-[#415a77] focus:outline-none ">
+                    <input type="text" placeholder="Address Line 2" class="w-full p-2 max-sm:mb-3 border border-gray-300 rounded-md mb-2 focus:ring-2 focus:ring-[#415a77] focus:outline-none ">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                        <input type="text" placeholder="City" class="p-2 border border-gray-300 max-sm:mb-3 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none ">
+                        <input type="text" placeholder="State" class="p-2 border border-gray-300 max-sm:mb-3 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none ">
+                        <input type="text" placeholder="Zip Code" class="p-2 border border-gray-300 max-sm:mb-3 rounded-md focus:ring-2 focus:ring-[#415a77] focus:outline-none ">
+                    </div>
+                  </div>
+                  <div class="md:col-span-2">
+                    <label class="block text-gray-700 max-sm:mb-3.5">Bio/Notes</label>
+                    <textarea class="w-full p-2 border border-gray-300 max-sm:mb-4 rounded-md min-h-[100px] focus:ring-2 focus:ring-[#415a77] focus:outline-none"></textarea>
                   </div>
                 </div>
-                <div class="col-span-2">
-                  <label class="block ">Bio/Notes</label>
-                  <textarea class="w-full p-2 border rounded-md"></textarea>
+                <div class="mt-4 flex justify-end gap-2">
+                  <button
+                    class="cursor-pointer rounded-md border-none  bg-[#415a77] px-4 py-2 text-[#e0e1dd] transition duration-300 hover:bg-[#778da944] hover:text-[#0d1b2a] active:scale-95 active:bg-[#415a77]">Save
+                    & Add Another</button>
+                  <button
+                    class="cursor-pointer rounded-md border-none  bg-[#415a77] px-4 py-2 text-[#e0e1dd] transition duration-300 hover:bg-[#778da944] hover:text-[#0d1b2a] active:scale-95 active:bg-[#415a77]">Save</button>
                 </div>
-              </div>
-              <div class="mt-4 flex justify-end gap-2">
-                <button
-                  class="rounded-md   text-[#8e9baa] hover:bg-[#778da944] active:bg-[#415a77] border cursor-pointer  transition duration-300 active:scale-95 border-[#415a77]  px-4 py-2 hover:text-[#e0e1dd]">Save
-                  & Add Another</button>
-                <button
-                  class="rounded-md   text-[#8e9baa] hover:bg-[#778da944] active:bg-[#415a77] border cursor-pointer  transition duration-300 active:scale-95 border-[#415a77]  px-4 py-2 hover:text-[#e0e1dd]">Save</button>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  
+
 `;
