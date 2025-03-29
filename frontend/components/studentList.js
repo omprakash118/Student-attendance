@@ -6,7 +6,7 @@ studentList.innerHTML = `
             <h1>Student List</h1>
         </div>
     </div>
-<div class="flex justify-center items-start min-h-[100vh] h-auto m-6  text-lg max-sm:text-xl">
+<div class="flex justify-center items-start min-h-screen box-border h-auto m-6  text-lg max-sm:text-xl">
       <div class="w-full max-w-4xl rounded-lg bg-gray-200 p-6 shadow-md ">
         <div class="mb-4 flex items-center justify-between">
           <div class="space-x-2">

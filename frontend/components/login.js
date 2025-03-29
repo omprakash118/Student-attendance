@@ -1,34 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+const login = document.getElementById('login');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="../src/input.css">
-    <link rel="stylesheet" href="../src/output.css">
-    <link rel="stylesheet" href="../styles/adminCss.css">
-    <script src="https://kit.fontawesome.com/a9bed58581.js" crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap"
-        rel="stylesheet">
-
-    <style>
-        .om {
-            background-color: rgb(255, 255, 255);
-        }
-        h1{
-            font-family: "Rubik Wet Paint", system-ui;
-        }
-    </style>
-</head>
-
-<body>
-
+login.innerHTML = `
     <div class="flex min-h-screen items-center justify-center bg-gradient-to-r from-[#0d1b2a] to-[#415a77]  p-4  ">
         <div class="w-full max-w-md rounded-lg  bg-gray-100 backdrop-blur-md backdrop-saturate-50 p-8 shadow-md">
             <div class="mb-8 flex flex-col items-center text-[#1b263b]">
@@ -37,7 +9,7 @@
                     <div class="mb-2 text-5xl ">
                         <i class="fa-brands fa-mendeley"></i>
                     </div>
-                    <h1 class="mb-1 text-4xl font-semibold  font">Mark Me</h1>
+                    <h1 class="mb-1 text-4xl font-semibold logoname font">Mark Me</h1>
                 </div>
                 <h2 class="mt-2 text-xl font-medium text-[#415a77]">Online Attendance System</h2>
             </div>
@@ -88,9 +60,4 @@
         </div>
     </div>
 
-
-
-
-</body>
-
-</html>
+`;

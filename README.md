@@ -1,5 +1,5 @@
-
-student-attendance-management/
+# student-attendance-management/
+```
 │── backend/  # Node.js + Express (Backend)
 │   ├── models/         # Database Schemas (User, Attendance, Course, etc.)
 │   ├── routes/         # API Routes (Admin, Teacher, Student)
@@ -30,3 +30,5 @@ student-attendance-management/
 │   ├── index.html      # Entry Point
 │   ├── app.js          # Main Frontend Script
 │
+
+``` 

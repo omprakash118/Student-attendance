@@ -6,7 +6,7 @@ classAdd.innerHTML = `
             <h1>Add New Class</h1>
         </div>
     </div>
-        <div class="flex justify-center items-start min-h-[100vh]  max-sm:ml-2 max-sm:mr-2 h-auto m-6">
+        <div class="flex justify-center items-start min-h-screen  max-sm:ml-2 max-sm:mr-2 h-auto m-6">
             <div class="max-w-4xl mx-auto w-[80%] max-sm:w-[95%]  bg-gray-200 shadow-md rounded-lg p-6">
             <!-- Header -->
             <h2 class="p-4  rounded-lg  text-lg max-sm:text-2xl font-semibold bg-[#415a77] text-[#e0e1dd]">CLASS DETAILS</h2>

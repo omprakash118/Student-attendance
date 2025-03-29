@@ -53,18 +53,17 @@
         
     }
     #admin-main{
-        height: 100vh;
+        min-height: 100vh;
     }
     #admin-sidebar {
         display: none;
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         position: fixed;
         top: 0;
         left: 0;
         background-color: #0d1b2a;
         z-index: 50;
-    
         transform: translateX(-100%); /* Hide sidebar by default */
         transition: transform 0.5s ease-in-out;
     }
@@ -79,11 +78,9 @@
         margin: 2rem;
     }
     #header-main-footer{
-        height: 100%;  
-
+        min-height: 100vh;
     }
     #attendance-section{
-        /* max-width: 28rem; */
         width: 100%; 
     }
     #calander{
@@ -105,20 +102,7 @@
     }
     #take-attendance{
         margin-bottom: 6rem;
-    }
-    /* #admin-footer{
-        position: fixed;    
-        right: 0;
-        left: 0;
-    } */
-    /* #notice{
-
-    } */
-     .hDiv{
-        padding-left: 5rem;
-     }
-
-     
+    }  
 }
 
 .attendance-container {
